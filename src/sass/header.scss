@@ -1,0 +1,14 @@
+/* HEADER */
+
+.header-wrapper {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(-45deg, #504444, #4b1048, #9c8198, #893168);
+  background-size: 400% 400%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  animation: backgroundTransition 8s ease-in-out infinite;
+}

@@ -1,0 +1,23 @@
+/* FOOTER */
+.footer {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e1c2b;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    // font-size: 1.4rem;
+    // box-sizing: border-box;
+    // background: #4b3547;
+    // margin: 0 3px;
+  }
+}
