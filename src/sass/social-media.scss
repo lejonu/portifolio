@@ -1,13 +1,15 @@
+@import "variables";
+
 .social-media {
   margin-top: 1rem;
   display: flex;
 
   & a {
     text-decoration: none;
-    color: white;
+    color: $color_white;
     font-size: 24px;
     padding: 1rem 4rem;
-    border: 1px solid white;
+    border: 1px solid $color_white;
     min-width: 4rem;
     display: flex;
     justify-content: center;
@@ -17,6 +19,6 @@
 
   & a:hover {
     color: #2e1c2b;
-    background-color: white;
+    background-color: $color_white;
   }
 }

@@ -1,4 +1,5 @@
 /* MENU  */
+@import "variables";
 
 .menu {
   position: absolute;
@@ -8,7 +9,7 @@
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 0 white;
+  box-shadow: 0 0 0 0 $color_white;
   z-index: -1;
   transition: 0.4s ease-in-out;
   overflow-y: hidden;
@@ -34,7 +35,7 @@
 
       & li a {
         margin: 10px 0;
-        color: #2e1c2b;
+        color: $card_font_color;
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 4px;
@@ -47,11 +48,11 @@
 /* ANIMAÇÃO DO MENU  */
 
 #toggle:checked + .checkbox {
-  background-color: white;
+  background-color: $color_white;
 
   & .trace:nth-child(1) {
     transform: rotate(45deg);
-    background-color: #2e1c2b;
+    background-color: $card_font_color;
     top: 47px;
   }
 
@@ -64,13 +65,13 @@
 
   & .trace:nth-child(3) {
     transform: rotate(-45deg);
-    background-color: #2e1c2b;
+    background-color: $card_font_color;
     top: 47px;
   }
 }
 
 #toggle:checked ~ .menu {
-  box-shadow: 0 0 0 100vmax white;
+  box-shadow: 0 0 0 100vmax $color_white;
   z-index: 1;
 
   &-items {

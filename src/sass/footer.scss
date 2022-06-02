@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2e1c2b;
+  background-color: $primary_color;
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;
@@ -13,11 +13,7 @@
 
   a {
     text-decoration: none;
-    color: white;
+    color: $color_white;
     padding: 10px;
-    // font-size: 1.4rem;
-    // box-sizing: border-box;
-    // background: #4b3547;
-    // margin: 0 3px;
   }
 }
